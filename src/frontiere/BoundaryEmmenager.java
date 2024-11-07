@@ -16,12 +16,9 @@ public class BoundaryEmmenager {
 					"Mais vous êtes déjà un habitant du village !");
 		} else {
 			StringBuilder question = new StringBuilder();
-			question.append("Êtes-vous :\n");
-			question.append("1 - un druide.\n");
-			question.append("2 - un gaulois.\n");
 			int choixUtilisateur = -1;
 			do {
-				choixUtilisateur = Clavier.entrerEntier(question.toString());
+				choixUtilisateur = Clavier.entrerEntier("Etes-vous : \n 1 - un druide \n 2 - un gaulois \n");
 				switch (choixUtilisateur) {
 				case 1:
 					emmenagerDruide(nomVisiteur);
