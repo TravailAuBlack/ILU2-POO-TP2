@@ -27,7 +27,8 @@ public class ControlLibererEtal {
 	 */
 	public String[] libererEtal(String nomVendeur) {
 		Etal etal = controlTrouverEtalVendeur.trouverEtalVendeur(nomVendeur);
-		String[] donneesEtal = etal.etatEtal();
+		String[] donneesEtal = null;
+		donneesEtal = etal.etatEtal();
 		etal.libererEtal();
 		return donneesEtal;
 	}

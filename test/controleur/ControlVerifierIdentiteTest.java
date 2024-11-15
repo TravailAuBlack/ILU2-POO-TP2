@@ -10,6 +10,9 @@ class ControlVerifierIdentiteTest {
 	private Village village;
 	
 	
+	
+	
+	
 	@Test
 	void testVerifierIdetite() {
 		ControlVerifierIdentite controlVerifierIdentite = new ControlVerifierIdentite(village);
@@ -17,14 +20,5 @@ class ControlVerifierIdentiteTest {
 		
 	}
 	
-	@Test
-	void testVerifierIdentite() {
-		
-	}
-
-	@Test
-	void test() {
-		fail("Not yet implemented");
-	}
 
 }

@@ -27,7 +27,7 @@ public class BoundaryEmmenager {
 
 				case 2:
 					StringBuilder questionVillagois= new StringBuilder();
-					questionVillagois.append("Bienvenue villageois"+nomVisiteur+" \n");
+					questionVillagois.append("Bienvenue villageois " + nomVisiteur + " \n");
 					questionVillagois.append("Quel est votre force ? \n");
 					int force = Clavier.entrerEntier(questionVillagois.toString());
 					controlEmmenager.ajouterGaulois(nomVisiteur,force);
